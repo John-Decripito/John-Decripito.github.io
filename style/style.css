@@ -1,0 +1,309 @@
+/* Google font styles */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/* Navigation and header font */
+nav li, header h1, header h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* General body styles */
+html {
+  width: 70%;
+  margin: auto;
+  background-color: #A1D998;
+}
+
+body {
+  background-color: #e5f5e0;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  margin-right: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #333;
+}
+
+header h2 {
+  margin: 5px 0;
+  color: #666;
+}
+
+header .cta-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+header .cta-btn:hover {
+  background-color: #007bff;
+}
+
+/* Navigation styles */
+nav {
+  padding-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav li a {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #aaaaaa;
+  color: #000;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #cccccc;
+  color: #fff;
+}
+
+/* Main content styles */
+main {
+  text-align: center;
+}
+
+.products {
+  margin-top: 30px;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.product-card p {
+  color: #666;
+}
+
+/* Footer styles */
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+footer ul#social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer ul#social li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer ul#social li a:hover {
+  color: #1e90ff;
+}
+
+/* Rolling Text Styles */
+.rolling-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #333;
+}
+
+.rolling-text {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 100%; /* Start position, just outside the screen */
+  animation: rollText 15s linear infinite;
+}
+
+@keyframes rollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* Existing CSS here */
+
+/* New CSS for Mower Section - Add this at the bottom */
+
+/* General body styles */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e5f5e0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.mower-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.mower-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.mower-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mower-card img:hover {
+  transform: scale(1.05);
+}
+
+.mower-card h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.mower-card p {
+  color: #666;
+  margin: 10px 0;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.features-list li {
+  margin-bottom: 5px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #007bff;
+}
+
+
+/* New CSS for Video Section and CTA */
+
+/* General video container styles */
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+video {
+  max-width: 100%; /* Makes sure the video is responsive */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call to Action (CTA) Section */
+.cta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cta-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #007bff;
+}
+
+.cta p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
